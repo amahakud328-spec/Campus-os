@@ -37,3 +37,29 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+:root {
+  --blue: #4c6fff;
+  --blue-dark: #3d5de0;
+  --surface: #ffffff;
+  --muted: #7b8498;
+  --ink: #26324a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  background: #f8f9fc;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
